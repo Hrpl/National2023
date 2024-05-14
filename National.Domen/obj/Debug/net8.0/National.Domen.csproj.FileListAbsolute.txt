@@ -1,0 +1,11 @@
+C:\Users\Денис\Desktop\National\National.Domen\bin\Debug\net8.0\National.Domen.deps.json
+C:\Users\Денис\Desktop\National\National.Domen\bin\Debug\net8.0\National.Domen.dll
+C:\Users\Денис\Desktop\National\National.Domen\bin\Debug\net8.0\National.Domen.pdb
+C:\Users\Денис\Desktop\National\National.Domen\obj\Debug\net8.0\National.Domen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Денис\Desktop\National\National.Domen\obj\Debug\net8.0\National.Domen.AssemblyInfoInputs.cache
+C:\Users\Денис\Desktop\National\National.Domen\obj\Debug\net8.0\National.Domen.AssemblyInfo.cs
+C:\Users\Денис\Desktop\National\National.Domen\obj\Debug\net8.0\National.Domen.csproj.CoreCompileInputs.cache
+C:\Users\Денис\Desktop\National\National.Domen\obj\Debug\net8.0\National.Domen.dll
+C:\Users\Денис\Desktop\National\National.Domen\obj\Debug\net8.0\refint\National.Domen.dll
+C:\Users\Денис\Desktop\National\National.Domen\obj\Debug\net8.0\National.Domen.pdb
+C:\Users\Денис\Desktop\National\National.Domen\obj\Debug\net8.0\ref\National.Domen.dll
