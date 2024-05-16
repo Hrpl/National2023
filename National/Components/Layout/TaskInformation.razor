@@ -1,0 +1,55 @@
+﻿
+<div class="d-flex flex-column row m-2 h-100" style="border: solid 2px #000; border-radius: 8px;">
+
+    <div>
+        <span class="m-1 text-secondary" style="font-weight:600; font-size: 18px">#@Problem.ShortTitle</span>
+        <span style="font-weight: 600; font-size: 18px">@Problem.FullTitle</span>
+        <span class="m-1 text-light" style="border-radius: 8px; background-color: @Problem.Status.ColoeHex">
+            <span class="m-2">@Problem.Status.Name</span>
+        </span>
+    </div>
+
+    <span>Создание задачи: @Problem.CreatedTime</span>
+
+    <span style="font-weight: 600">Предшествующая задача</span>
+    <span class="text-secondary col-3 ms-2" style="font-weight:600; border-radius: 8px; border: solid 1px black">#PRO-100</span>
+
+    <span>Фактическое начало выполнения: @Problem.StartFinishTime</span>
+
+    <span> Фактическое завершение: -</span>
+
+    <textarea cols="6" value="@Problem.Discription" class="form-label col-10 text-secondary mx-2" style="font-weight:600; border-radius: 8px; border: solid 1px black" readonly />
+
+    <span style="font-weight: 600">Исполнитель</span>
+    <span class="ms-2 col-6" style="font-weight:600; border-radius: 8px; border: solid 1px black">Антон</span>
+
+    <span class="mt-2" style="font-weight: 600">Приложения</span>
+    <button class="btn p-1 d-flex ms-2 justify-content-between border-dark col-6" style="font-weight: 600">
+        <span>Добавить</span>
+        <span class="bi bi-plus"></span>
+    </button>
+
+    <span class="mt-2">Наблюдатели</span>
+    <button class="btn mb-2 ms-2 p-1 d-flex justify-content-between border-1 border-dark col-6" style="font-weight: 600">
+        <span>Добавить</span>
+        <span class="bi bi-plus" ></span>
+    </button>
+
+    <div class="mb-3 mt-1" style="font-weight: 600">
+        <a class="text-light py-1 px-3 " style="border-radius: 18px; background-color: deepskyblue; border: solid 2px deepskyblue; text-decoration: none" @onclick="@(async () => await EventCallback.InvokeAsync("save"))">
+            <span>Сохранить</span>
+        </a>
+
+        <a class="bg-light text-danger py-1 px-3 mx-2" style="border-radius: 18px; border: solid 2px red; text-decoration: none" @onclick="@(async () => await EventCallback.InvokeAsync("exit"))">
+            <span>Удалить</span>
+        </a>
+    </div>
+</div> 
+
+@code {
+    [Parameter]
+    public Problem? Problem { get; set; }
+
+    [Parameter]
+    public EventCallback<string> EventCallback { get; set; }
+}

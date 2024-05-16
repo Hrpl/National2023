@@ -1,0 +1,32 @@
+﻿
+<div class="mx-3 my-2 p-1" style="border: solid 1px #777; border-radius: 10px;">
+    <span class="m-1 text-secondary" style="font-weight:600">#@Item.ShortTitle</span>
+
+    <span class="m-1 text-light" style="border-radius: 8px; background-color: @Item.Status.ColoeHex">
+        <span class="m-2">@Item.Status.Name</span>
+    </span>
+
+    <span class="m-1">@Item.FullTitle</span>
+
+    <span class="d-flex align-self-center" id="shortInfo" style="float: right">
+        @if (@Item.Deadline > DateTime.Now)
+        {
+            <span class="mx-2">@Item.Deadline</span>
+        }
+        else
+        {
+            <span class="mx-2 text-danger">@Item.Deadline</span>
+        }
+        <button class="d-flex border-0 bg-light text-info mx-2" style="font-weight:800" @onclick="@EventCallback"> > </button>
+
+    </span>
+    
+</div>
+
+@code {
+    [Parameter]
+    public Problem Item { get; set; }
+
+    [Parameter]
+    public EventCallback EventCallback { get; set; }
+}

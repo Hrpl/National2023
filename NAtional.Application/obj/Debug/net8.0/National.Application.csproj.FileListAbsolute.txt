@@ -15,3 +15,4 @@ C:\Users\Денис\Desktop\National\NAtional.Application\obj\Debug\net8.0\Natio
 C:\Users\Денис\Desktop\National\NAtional.Application\obj\Debug\net8.0\refint\National.Application.dll
 C:\Users\Денис\Desktop\National\NAtional.Application\obj\Debug\net8.0\National.Application.pdb
 C:\Users\Денис\Desktop\National\NAtional.Application\obj\Debug\net8.0\ref\National.Application.dll
+C:\Users\Денис\Desktop\National\NAtional.Application\obj\Debug\net8.0\National.Application.sourcelink.json

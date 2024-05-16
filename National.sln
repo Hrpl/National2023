@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "National.Domen", "National.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "National.Infrastructure", "National.Infrastructure\National.Infrastructure.csproj", "{C1EF30C5-F8E5-4A97-B64B-0F5D49AD912D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "National.API", "National.API\National.API.csproj", "{04C2D2A2-9450-427B-AC47-4BC67E19DBA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "National.API", "National.API\National.API.csproj", "{04C2D2A2-9450-427B-AC47-4BC67E19DBA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "National.Application", "NAtional.Application\National.Application.csproj", "{D06052B2-41B7-4E06-B505-166F3B23D0E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "National.Application", "NAtional.Application\National.Application.csproj", "{D06052B2-41B7-4E06-B505-166F3B23D0E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

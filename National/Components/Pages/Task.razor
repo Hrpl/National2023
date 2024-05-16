@@ -1,7 +1,7 @@
 ﻿@page "/task"
-@using National
+@inject IJSRuntime JSRuntime
 
-<div class="bg-light" style="border-radius: 8px; height: 85vh">
+<div class="bg-light d-flex flex-column h-100" style="border-radius: 8px">
     <div class="d-flex justify-content-between">
         <h3 class="m-3">Список задач</h3>
         <div class="col-4 row">
@@ -13,45 +13,85 @@
         
     </div>
 
-    <div class="my-2 ">
-        @if(MauiProgram.ListProblems != null)
-        {
-            @foreach (var item in MauiProgram.ListProblems)
+    <div class="d-flex justify-content-between h-100">
+        <div class="my-2 flex-grow-1 d-flex flex-column h-100">
+            @if (SortedTask != null)
             {
-                var color = item.Status.ColoeHex;
-                            
-                <div class="mx-3 my-2 p-1" style="border: solid 1px #000; border-radius: 10px;">
-                    <span class="m-1 text-secondary" style="font-weight:600">#@item.ShortTitle</span>
-
-                    <span class="m-1 text-light" style="border-radius: 8px; background-color: @color">
-                        <span class="m-2">@item.Status.Name</span>
-                    </span>
-
-                    <span class="m-1">@item.FullTitle</span>
-
-                    <span class="d-flex align-self-center" style="float: right">
-                        @if (@item.Deadline > DateTime.Now)
-                        {
-                            <span class="mx-2">@item.Deadline</span>
-                        }
-                        else
-                        {
-                            <span class="mx-2 text-danger">@item.Deadline</span>
-                        }
-                        <button class="d-flex border-0 bg-light text-info mx-2" style="font-weight:800"> > </button>
-                    </span>
-                </div>
+                @foreach (var item in SortedTask)
+                {
+                    <TaskElement Item="item" EventCallback="@(() => On(item))"></TaskElement>
+                }
             }
-        }
-    </div>
+            <button class="border-0 m-2 bg-light justify-content-end align-self-end" style="color: orange;">
+                <h2 class="bi bi-plus-circle-fill"></h2>
+            </button>
+        </div>
 
-    <button class="border-0 m-2 bg-light" style="float: inline-end; color: orange;">
-        <h2 class="bi bi-plus-circle-fill"></h2>
-    </button>
+       
+        <div class="flex-grow-1 border-1 h-100" style="display: none" id="taskInformation">
+            @if (TempTask != null)
+            {
+                <TaskInformation Problem="TempTask" EventCallback="EventTaskInformation"></TaskInformation>
+            }
+        </div>
+    </div>
 </div>
 
-@code{
-    public void ResetButton(){
-        StateHasChanged();
+<script>
+    function Collapsed() {
+        var element = document.getElementById("taskInformation");
+        element.style.display = 'none';
     }
+    function Visible() {
+        var element = document.getElementById("taskInformation");
+        element.style.display = 'flex';
+    }
+    
+</script>
+
+@code{
+    public List<Problem> SortedTask;
+    public Problem? TempTask = null;
+
+    protected override void OnInitialized()
+    {
+        if (MauiProgram.ListProblems != null)
+        {
+            SortedTask = new List<Problem>();
+            SortedTask.AddRange(
+                MauiProgram.ListProblems.Where(t => t.Deadline < DateTime.Now && t.Status.Name == "В работе").ToList()
+            );
+
+            SortedTask.AddRange(
+                MauiProgram.ListProblems.Where(t => t.Deadline < DateTime.Now && t.Status.Name == "Открыта").ToList()
+            );
+
+            SortedTask.AddRange(
+                MauiProgram.ListProblems.Where(t => t.Deadline >= DateTime.Now && t.Status.Name == "В работе").ToList()
+            );
+
+            SortedTask.AddRange(
+                MauiProgram.ListProblems.Where(t => t.Deadline >= DateTime.Now && t.Status.Name == "Открыта").ToList()
+            );
+        }
+    }
+
+    public void ResetButton(){
+        OnInitialized();
+    }
+
+    public async void On(Problem task)
+    {
+        TempTask = task;
+        await JSRuntime.InvokeVoidAsync("Visible");
+    }
+
+    public async void EventTaskInformation(string value)
+    {
+        if(value == "save")
+        {
+            await JSRuntime.InvokeVoidAsync("Collapsed");
+        }
+    }
+
 }

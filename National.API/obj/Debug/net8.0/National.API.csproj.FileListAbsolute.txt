@@ -74,3 +74,4 @@ C:\Users\Денис\Desktop\National\National.API\obj\Debug\net8.0\National.API.
 C:\Users\Денис\Desktop\National\National.API\obj\Debug\net8.0\National.API.genruntimeconfig.cache
 C:\Users\Денис\Desktop\National\National.API\obj\Debug\net8.0\ref\National.API.dll
 C:\Users\Денис\Desktop\National\National.API\obj\Debug\net8.0\National.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Денис\Desktop\National\National.API\obj\Debug\net8.0\National.API.sourcelink.json

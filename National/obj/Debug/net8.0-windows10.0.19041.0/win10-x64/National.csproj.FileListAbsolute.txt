@@ -205,3 +205,4 @@ C:\Users\Денис\Desktop\National\National\obj\Debug\net8.0-windows10.0.19041
 C:\Users\Денис\Desktop\National\National\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 C:\Users\Денис\Desktop\National\National\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\National.Domen.dll
 C:\Users\Денис\Desktop\National\National\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\National.Domen.pdb
+C:\Users\Денис\Desktop\National\National\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\National.sourcelink.json

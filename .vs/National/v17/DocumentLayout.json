@@ -3,14 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\National\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NatProj/True/SqlTable/dbo.Status.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{57F084C3-52C8-46BC-A97A-59C2C0F91DC9}|National\\National.csproj|c:\\users\\\u0434\u0435\u043D\u0438\u0441\\desktop\\national\\national\\components\\layout\\taskinformation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57F084C3-52C8-46BC-A97A-59C2C0F91DC9}|National\\National.csproj|solutionrelative:national\\components\\layout\\taskinformation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NatProj/True/SqlTable/dbo.Problems.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57F084C3-52C8-46BC-A97A-59C2C0F91DC9}|National\\National.csproj|c:\\users\\\u0434\u0435\u043D\u0438\u0441\\desktop\\national\\national\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57F084C3-52C8-46BC-A97A-59C2C0F91DC9}|National\\National.csproj|solutionrelative:national\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{57F084C3-52C8-46BC-A97A-59C2C0F91DC9}|National\\National.csproj|c:\\users\\\u0434\u0435\u043D\u0438\u0441\\desktop\\national\\national\\components\\layout\\taskelement.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57F084C3-52C8-46BC-A97A-59C2C0F91DC9}|National\\National.csproj|solutionrelative:national\\components\\layout\\taskelement.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57F084C3-52C8-46BC-A97A-59C2C0F91DC9}|National\\National.csproj|c:\\users\\\u0434\u0435\u043D\u0438\u0441\\desktop\\national\\national\\components\\pages\\task.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -27,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{57F084C3-52C8-46BC-A97A-59C2C0F91DC9}|National\\National.csproj|c:\\users\\\u0434\u0435\u043D\u0438\u0441\\desktop\\national\\national\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{57F084C3-52C8-46BC-A97A-59C2C0F91DC9}|National\\National.csproj|solutionrelative:national\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04C2D2A2-9450-427B-AC47-4BC67E19DBA0}|National.API\\National.API.csproj|c:\\users\\\u0434\u0435\u043D\u0438\u0441\\desktop\\national\\national.api\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04C2D2A2-9450-427B-AC47-4BC67E19DBA0}|National.API\\National.API.csproj|solutionrelative:national.api\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 248,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -79,54 +73,64 @@
               "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "dbo.Status [\u0414\u0430\u043D\u043D\u044B\u0435]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NatProj/True/SqlTable/dbo.Status.sql",
-              "ToolTip": "dbo.Status [\u0414\u0430\u043D\u043D\u044B\u0435]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-14T20:33:07.199Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "dbo.Problems [\u0414\u0430\u043D\u043D\u044B\u0435]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NatProj/True/SqlTable/dbo.Problems.sql",
-              "ToolTip": "dbo.Problems [\u0414\u0430\u043D\u043D\u044B\u0435]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-14T20:13:08.43Z",
+              "Title": "TaskElement.razor",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\National\\National\\Components\\Layout\\TaskElement.razor",
+              "RelativeDocumentMoniker": "National\\Components\\Layout\\TaskElement.razor",
+              "ToolTip": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\National\\National\\Components\\Layout\\TaskElement.razor",
+              "RelativeToolTip": "National\\Components\\Layout\\TaskElement.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T18:09:36.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "TaskInformation.razor",
+              "DocumentMoniker": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\National\\National\\Components\\Layout\\TaskInformation.razor",
+              "RelativeDocumentMoniker": "National\\Components\\Layout\\TaskInformation.razor",
+              "ToolTip": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\National\\National\\Components\\Layout\\TaskInformation.razor",
+              "RelativeToolTip": "National\\Components\\Layout\\TaskInformation.razor",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABQAAACyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T12:25:24.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Task.razor",
               "DocumentMoniker": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\National\\National\\Components\\Pages\\Task.razor",
               "RelativeDocumentMoniker": "National\\Components\\Pages\\Task.razor",
               "ToolTip": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\National\\National\\Components\\Pages\\Task.razor",
               "RelativeToolTip": "National\\Components\\Pages\\Task.razor",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAB0AAAA8AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-14T19:33:23.522Z",
+              "WhenOpened": "2024-05-16T12:18:26.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\National\\National\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "National\\Components\\Layout\\NavMenu.razor",
               "ToolTip": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\National\\National\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "National\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAQwAcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-14T19:33:07.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\National\\National\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "National\\Components\\Layout\\MainLayout.razor",
@@ -139,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\National\\National\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "National\\wwwroot\\index.html",
@@ -148,32 +152,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-05-14T18:21:35.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TaskController.cs",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\National\\National.API\\Controllers\\TaskController.cs",
-              "RelativeDocumentMoniker": "National.API\\Controllers\\TaskController.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\National\\National.API\\Controllers\\TaskController.cs",
-              "RelativeToolTip": "National.API\\Controllers\\TaskController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T13:15:33.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\National\\National\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "National\\Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\Desktop\\National\\National\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "National\\Components\\Pages\\Home.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T20:53:18.395Z",
               "EditorCaption": ""
             }
           ]
